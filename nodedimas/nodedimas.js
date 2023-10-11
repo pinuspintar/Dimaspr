@@ -7,7 +7,7 @@ app.use(bodyParser.json());
 
 // Rute sederhana
 app.get('/', (req, res) => {
-  res.send('Hello World');
+  res.send('Hello world');
 });
 
 app.post('/data', (req, res) => {
